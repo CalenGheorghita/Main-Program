@@ -1,0 +1,78 @@
+/* styles.css (Updated Styling for a Cleaner UI) */
+
+/* General styling for the whole page */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #D9D9D9;
+    margin: 0;
+    padding: 20px;
+}
+/* Header 1 styles */
+h1 {
+    color: #333;
+    background-color: #A1B9C6;
+    text-align: left; 
+    padding: 35px;
+}
+/* Style for paragraphs */
+p {
+    font-size: larger;
+    font-weight: bold;
+    color: #333;
+    background-color: #A1B9C6;
+    text-align: center; 
+    padding: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: 300px;
+}
+
+/* Style for buttons */
+button {
+    background-color: #A1B9C6;
+    border: none;
+    color: black;
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #8FA6B3;
+}
+
+/* Input field styling */
+input[type="text"] {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 3px solid #B6B3B3;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/*Home button styling*/
+#home-button {
+    margin: 20px;
+    position: absolute;
+    top: 150px;
+    left: 20px; 
+}
+
+/*Task page button styling*/
+#task-page-button {
+    margin: 20px;
+    position: absolute;
+    top: 200px;
+    left: 20px; 
+}
+
+/* Task List Styling */
+#taskList {
+    width: 50%;
+    padding: 10;
+}

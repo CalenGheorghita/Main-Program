@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Task Page</h1>
+        <h2>Your Tasks</h2>
+    <input type="text" id="taskInput" placeholder="Task Name">
+    <input type="date" id="taskDate">
+    <select id="taskUrgency">
+        <option value="Low">Low</option>
+        <option value="Medium">Medium</option>
+        <option value="High">High</option>
+    </select>
+    <button onclick="addTask()">Add Task</button>
+    <table class="task-table">
+        <thead>
+            <tr>
+                <th>Task</th>
+                <th>Due Date</th>
+                <th>Urgency</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody id="taskList"></tbody>
+    </table>
+    <a href="index.html"><button id = "home-button">Back to Home</button></a>
+    <script src="script.js"></script>
+</body>
+</html>
